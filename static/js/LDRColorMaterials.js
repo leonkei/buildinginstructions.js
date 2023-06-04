@@ -402,8 +402,8 @@ LDR.Colors.createRandomTexture = function(damage, waves, waveSize, speckle) {
     return texture;
 }
 
-LDR.Colors.envMapPrefix = 'textures/cube/';
-LDR.Colors.textureMaterialPrefix = 'textures/materials/';
+LDR.Colors.envMapPrefix = 'static/textures/cube/';
+LDR.Colors.textureMaterialPrefix = 'static/textures/materials/';
 LDR.Colors.listeningMaterials = {trans:[], // Only one trans texture.
                                  opaque:[], // -||-
                                  pearl:[],
